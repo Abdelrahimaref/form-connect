@@ -1,0 +1,722 @@
+
+<html>
+   <head>
+	   <!--TO Support Many Language Include Arabic Language-->
+        <meta charset="utf-8"/>
+	   
+	   <!--For Internet Explorer-->
+	    <meta http-equiv="X-UA-	Compatible"content="IE=edge">
+	   
+	   <!--First mobilw meta-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+        <meta name="description"content="mt company">
+        <title>form-@connect</title>
+        <!--call bootstrap-->
+	    <link rel="stylesheet"href="css/bootstrap.css"/>
+        <!--Page Style-->	   
+        <link rel="stylesheet"href="css/main.css"/>
+       <!--Animate.css-->
+       <link rel="stylesheet"href="css/animate.min.css"/>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico"rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet"><!---AOS LAIBIRARY-->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	   <!--Internet Explorer-->
+	    <script src="js/html5shiv.min.js"></script>
+	   	<script src="js/respond.min.js"></script>
+	   <!---->
+	</head>
+	<body>
+            <nav class="navbar navbar-default navbar-expand-lg navbar-light">
+                    <div class="navbar-header d-flex col">
+                            <a href="#" class="navbar-brand">
+                                <img class="brand-img"src="img/logo.jpg">
+                            </a> 		
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collection of nav links, forms, and other content for toggling -->
+                    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+                        <ul class="nav navbar-nav navbar-right ml-auto">
+                                <li class="nav-item active"><a href="#" class="nav-link">ACCUEIL</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">bookings</a></li>			
+                                <li class="nav-item "><a href="#" class="nav-link">contact us 1</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">booking</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">thank you for booking</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">booking my account</a></li>
+                                			
+                            <li class="nav-item">
+                                <a data-toggle="dropdown" class="nav-link dropdown-toggle login" href="#"><i class="fa fa-user"></i> Login</a>
+                                <ul class="dropdown-menu form-wrapper">					
+                                    <li>
+                                        <form action="/examples/actions/confirmation.php" method="post">
+                                            <p class="hint-text">Sign in with your social media account</p>
+                                            <div class="form-group social-btn clearfix">
+                                                <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+                                                <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>                                            </div>
+                                            <div class="or-seperator"><b>or</b></div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Username" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" placeholder="Password" required="required">
+                                            </div>
+                                            <input type="submit" class="btn btn-primary btn-block" value="Login">
+                                            <div class="form-footer">
+                                                <a href="#">Forgot Your password?</a>
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle  register"><i class="fa fa-plus"></i> sign up</a>
+                                <ul class="dropdown-menu form-wrapper">					
+                                    <li>
+                                        <form action="/examples/actions/confirmation.php" method="post" class="text-center">
+                                            <p>Create an Account</p>
+                                            <p class="hint-text">Sign up with your social media account or email address</p>
+                                            <div class="social-btn text-center">
+                                                <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
+                                                <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
+                                            </div>
+                                            <div class="or-seperator"><b>or</b></div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+                                            </div>  
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+                                            </div>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                 <div class="slider">
+                <div class="sliderContent ">
+                    <div class="text-center">
+                        <h1>NOUS TROUVERONS DES <br>SERVICES POUR VOUS</h1>
+                        <p>L'aide en quelques clics</p>
+                    </div>     
+                </div>
+            </div> 
+                    <!--Payment Section-->
+        
+        <div class="container" id="pay">
+            <div class="mainPayment">
+                <form class="form-group">
+                    <div><input class="PayInput form-control" type="text"placeholder="Keyword"></div> 
+                    <div><input class="PayInput form-control" type="text"placeholder="Category"></div>
+                    <div><input class="PayInput form-control" type="text"placeholder="City "></div>
+                    <div><input class=""type="submit"value="Find Provider"></div>
+                </form>
+            </div>
+        </div>    
+        
+        <!--Comment Section-->
+        <section class="comment">
+            <div class="container text-center">
+                <h3>COMMENT FONCTIONNE FCONNECT</h3>
+                <hr class="hr"><hr class="hr">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="slidDiv text-center">
+                            <img src="img/describe-1.png">
+                        </div>
+                        <h4>DÉCRIVEZ VOTRE TÂCHE</h4>
+                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                        <div class="number">1</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="slidDiv text-center">
+                            <img src="img/tasker-1.png">
+                        </div>
+                        <h4>CHOISISSEZ UN TASKER</h4>
+                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                        <div class="number">2</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="slidDiv text-center">
+                            <img src="img/smarter-1.png">
+                        </div>
+                        <h4>VIVRE PLUS INTELLIGEMMENT</h4>
+                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                        <div class="number">3</div>
+                    </div>
+        
+                </div>
+                
+            </div>
+        </section>
+         <div class="container">
+            <hr class="hr1">
+            <hr class="hr2">
+        </div>
+        <!--
+        <section class="testmonials">
+            <div class="container text-center">
+                    <h3>FORMATEURS EN VEDETTE</h3>
+                    <hr class="hr"><hr class="hr">
+                    <h5>Meilleures offres de service</h5>
+                    <div class="row">
+                        <div class="col-md-8 col-center m-auto">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                               Carousel indicators 
+                                 <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>   
+                                Wrapper for carousel items 
+                                <!-- <div class="carousel-inner">
+                                    <div class="item carousel-item active">
+                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                        <p><i class="fas fa-search-location"></i> nice,France</p>
+                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
+                                        
+                                        <br>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                        <p><i class="fas fa-search-location"></i> nice,France</p>
+                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
+                                        <br>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                        <p><i class="fas fa-search-location"></i> nice,France</p>
+                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
+                                        <br>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
+                                    </div>
+                                </div> -->
+                                <!-- Carousel controls -->
+                                <!-- <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <i class="fa fa-angle-left" style="color: #FFF;"></i>
+                                </a>
+                                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <i class="fa fa-angle-right" style="color: #FFF;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>  -->
+
+        <section class="testmonials">
+                <div class="container text-center">
+                        <h3>FORMATEURS EN VEDETTE</h3>
+                        <hr class="hr"><hr class="hr">
+                        <h5>Meilleures offres de service</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>   
+                                <!-- Wrapper for carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="item carousel-item active">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>		
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>								
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper">
+                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                    <div class="img-box">
+                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                    </div>
+                                                    <div class="thumb-content">
+                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                            <div class="star-rating">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                            </ul>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                        </div>
+                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                    </div>						
+                                                </div>
+                                            </div>	
+                                            <div class="col-sm-3">
+                                                    <div class="thumb-wrapper">
+                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                        <div class="img-box">
+                                                            <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
+                                                        </div>
+                                                        <div class="thumb-content">
+                                                                <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                                                <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
+                                                                <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
+                                                            </div>
+                                                            <a href="#" class="btn btn-primary">Add to Fav</a>
+                                                        </div>						
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Carousel controls -->
+                                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+        </section>
+        <!--FCONNECT  Section-->
+        <section class="" style="margin-top: 90px;">
+                <div class="container text-center">
+                    <h3>FCONNECT CATÉGORIES</h3>
+                    <hr class="hr"><hr class="hr">
+                    <h5 style="margin-bottom:50px ;">Meilleures offres de service</h5>
+                    <div class="row">
+                        <div class="col-md-4 serv">
+                            <div class="photo1">
+                                <h4 class="sevice-name">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 serv">
+                            <div class="photo2">
+                                <h4 class="sevice-name">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 serv">
+                            <div class="photo3">
+                                <h4 class="sevice-name">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</h4>
+                            </div>
+                        </div>
+            
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!---4 FORMATEURS SUIVEZ-NOUS SECTION---->
+            <section class="formateurs text-center">
+                <h1 class="formateur-h1"><span>4</span>FORMATEURS SUIVEZ-NOUS</h1>
+                <p>Lorem Ipsum est simplement un texte factice de l’industrie de l’impression et de la composition. Lorem Ipsum est le texte factice standard de l’industrie depuis les années 1500, quand un imprimeur inconnu a pris une galère de type et l’a brouillé pour en faire un cahier type.</p>
+
+            </section>
+
+            <section class="testmonials2">
+                    <div class="container">
+                        <div class="text-center">
+                            <h3 >FORMATEURS EN VEDETTE</h3>
+                            <hr class="hr"><hr class="hr">
+                            <h5>Meilleures offres de service</h5>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="0">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel2" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel2" data-slide-to="2"></li>
+                                    </ol>   
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item carousel-item active">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="thumb-wrapper2">
+                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                        <div class="img-box2">
+                                                            <img class="caros-img" src="img/bg4-554x261.jpg" class="img-responsive img-fluid" alt="">									
+                                                        </div>
+                                                        <div class="thumb-content">
+                                                            <h5>BONJOUR</h5>
+                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                                            <p>Experimental article ….!</p>    
+                                                            <a class="read-more" href="#">READ MORE</a>                                                  
+                                                        </div>						
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="thumb-wrapper2">
+                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                        <div class="thumb-content">
+                                                            <h5>BONSOIR</h5>
+                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
+                                                            <a class="read-more" href="#">READ MORE</a>                                                  
+                                                        </div>						
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                        <div class="item carousel-item">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="thumb-wrapper2">
+                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                        <div class="thumb-content">
+                                                            <h5>BONSOIR</h5>
+                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
+                                                            <a class="read-more" href="#">READ MORE</a>                                                  
+                                                        </div>						
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="thumb-wrapper2">
+                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                                        <div class="thumb-content">
+                                                            <h5>BONSOIR</h5>
+                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
+                                                            <a class="read-more" href="#">READ MORE</a>                                                  
+                                                        </div>						
+                                                    </div>
+                                                </div>						
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a class="carousel-control right carousel-control-next" href="#myCarousel2" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+            </section>
+
+
+            <div class="footer text-center">
+                <p>Fconnect text Footer.</p>
+            </div>
+            <div class="footer-bottom"></div>
+            
+
+
+            
+
+        <div id="goUPButton">
+            <i class="fas fa-angle-up"onclick=goUP()></i>
+        </div>
+
+
+
+		
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		<script src="js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+		<script src="js/jQuery3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/e.js"></script>
+	</body>
+    
+
+
+</html>
