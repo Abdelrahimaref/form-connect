@@ -16,6 +16,7 @@
 	    <link rel="stylesheet"href="css/bootstrap.css"/>
         <!--Page Style-->	   
         <link rel="stylesheet"href="css/main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
        <!--Animate.css-->
        <link rel="stylesheet"href="css/animate.min.css"/>
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -51,8 +52,8 @@
                                 <li class="nav-item"><a href="#" class="nav-link">booking my account</a></li>
                                 			
                             <li class="nav-item">
-                                <a data-toggle="dropdown" class="nav-link dropdown-toggle login" href="#"><i class="fa fa-user"></i> Login</a>
-                                <ul class="dropdown-menu form-wrapper">					
+                                <a data-toggle="modal" data-target="#exampleModalCenter" class="nav-link dropdown-toggle login" href="#"><i class="fa fa-user"></i> Login</a>
+                                <!-- <ul class="dropdown-menu form-wrapper">					
                                     <li>
                                         <form action="/examples/actions/confirmation.php" method="post">
                                             <p class="hint-text">Sign in with your social media account</p>
@@ -72,10 +73,10 @@
                                             </div>
                                         </form>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-item">
-                                <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle  register"><i class="fa fa-plus"></i> sign up</a>
+                                <a href="#"data-toggle="modal" data-target="#exampleModalCenter2" class="nav-link dropdown-toggle  register"><i class="fa fa-plus"></i> sign up</a>
                                 <ul class="dropdown-menu form-wrapper">					
                                     <li>
                                         <form action="/examples/actions/confirmation.php" method="post" class="text-center">
@@ -121,10 +122,10 @@
         <div class="container" id="pay">
             <div class="mainPayment">
                 <form class="form-group">
-                    <div><input class="PayInput form-control" type="text"placeholder="Keyword"></div> 
-                    <div><input class="PayInput form-control" type="text"placeholder="Category"></div>
-                    <div><input class="PayInput form-control" type="text"placeholder="City "></div>
-                    <div><input class=""type="submit"value="Find Provider"></div>
+                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="Keyword"></div> 
+                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="Category"></div>
+                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="City "></div>
+                    <div><input class="btn btn-success"type="submit"value="Find Provider"></div>
                 </form>
             </div>
         </div>    
@@ -695,7 +696,201 @@
             <div class="footer-bottom"></div>
             
 
+<!--Login Medal-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="/examples/actions/confirmation.php" method="post">
 
+                
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+                <input type="submit" class="btn btn-success btn-block" value="Login">
+                <div class="form-footer">
+                    <a style="color: #666;" href="#">have an account |</a> <a style="color: #666;" href="#">Forget Pasword</a>
+                </div>
+                <!-- <div class="or-seperator"><b>or</b></div> -->
+                <p class="hint-text">Sign in with your social media account</p>
+                <div class="form-group social-btn clearfix">
+                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                      
+                </div>
+                <div class="form-group social-btn clearfix">
+                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                </div>
+                 
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--SignUp Medal-->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROVIDER</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">CUSTOMER</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <form class="provider_registration" method="post" style="margin-top: 30px;">
+                                <div class="provider-bx clearfix row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                  </div>
+                                                    <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group has-select">
+                                      <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
+                                        <option value="">
+                                            Select Category                       
+                                         </option>
+                                        <option value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option><option value="75" data-content="<span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option><option value="74" data-content="<span class='childcat'>AIPR débutant</span>">AIPR débutant</option><option value="76" data-content="<span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option><option value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option><option value="69" data-content="<span class='childcat'>2S</span>">2S</option><option value="68" data-content="<span class='childcat'>IBC</span>">IBC</option><option value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option><option value="72" data-content="<span class='childcat'>APS ASD</span>">APS ASD</option><option value="71" data-content="<span class='childcat'>SST</span>">SST</option>                      
+                                    </select>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                </div>
+                                <div class="form-footer">
+                                    <a style="color: #767676;" href="#">Already Registered?</a>
+                                </div>
+                                <!-- <div class="or-seperator"><b>or</b></div> -->
+                                <p class="hint-text text-left">Connecter avec:</p>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                        
+                                </div>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                                </div>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" style="background-color: #4d9edb;" class="btn pull-left  btn-block"> <i class="fab fa-twitter"></i> Twitter</a>                      
+                                </div>
+                              </form>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <form class="provider_registration" method="post" style="margin-top: 30px;">
+                                <div class="provider-bx clearfix row">
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                </div>
+                                <div class="form-footer">
+                                    <a style="color: #767676;" href="#">Already Registered?</a>
+                                </div>
+                                    <!-- <div class="or-seperator"><b>or</b></div> -->
+                                <p class="hint-text text-left">Connecter avec:</p>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                        
+                                </div>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                                </div>
+                                <div class="form-group social-btn clearfix">
+                                    <a href="#" style="background-color: #4d9edb;" class="btn pull-left  btn-block"> <i class="fab fa-twitter"></i> Twitter</a>                      
+                                </div>       
+                              </form>  
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
             
 
         <div id="goUPButton">
