@@ -1,4 +1,13 @@
 
+ul
+{
+    list-style: none;
+}
+a:hover
+{
+    text-decoration: none;
+
+}
 select
 {
     height: 50px !important;
@@ -686,3 +695,89 @@ option
     background-position: center center;
 }
 
+
+/***********Contact Us Page*****************/
+.breadcrumb-row {
+    background: #e8e9e9;
+    padding: 15px 0;
+    padding-top: 25px;
+}
+.breadcrumb-row ul li a {
+    color: #3396d1;
+}
+.breadcrumb-row ul li:last-child {
+    color: #676767;
+}
+.breadcrumb-row ul li {
+    padding: 0;
+    margin-right: 3px;
+    color: #333333;
+}
+.section-content {
+    margin-top: 50px;
+}
+.page-content {
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+.bg-white {
+    background-color: #FFF;
+}
+.backgroundContactPage
+{
+    background-color: #f7f8fa;
+}
+.cont
+{
+    padding: 35px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+.cont2
+{
+    padding: 30px;
+    background-color: #FFF;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+.cont2 h4
+{
+    padding-left: 20px;
+}
+.btn-primary, .owl-prev, .owl-next {
+    background-color: #77c04b;
+    border-color: #62a643;
+    color: #ffffff!important;
+}
+ul.contact-info li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 20px;
+}
+ul.contact-info li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+ul.contact-info li .fa {
+    position: absolute;
+    left: 30px;
+    color: #3396d1;
+    font-size: 16px;
+}
+.list-inline li
+{
+    display: inline-block;
+}
+/***************** author Page*******************/
+.slider2
+{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/pp-4.jpg);
+    background-position: center ; 
+    background-size: cover ;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+
+}
