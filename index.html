@@ -1,7 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-   <head>
-	   <!--TO Support Many Language Include Arabic Language-->
+<head>
         <meta charset="utf-8"/>
 	   
 	   <!--For Internet Explorer-->
@@ -14,8 +14,6 @@
         <title>form-@connect</title>
         <!--call bootstrap-->
 	    <link rel="stylesheet"href="css/bootstrap.css"/>
-        <!--Page Style-->	   
-        <link rel="stylesheet"href="css/main.css"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
        <!--Animate.css-->
        <link rel="stylesheet"href="css/animate.min.css"/>
@@ -23,93 +21,37 @@
         <link href="https://fonts.googleapis.com/css?family=Pacifico"rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet"><!---AOS LAIBIRARY-->
        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	   <!--Internet Explorer-->
-	    <script src="js/html5shiv.min.js"></script>
-	   	<script src="js/respond.min.js"></script>
-	   <!---->
-	</head>
-	<body>
-            <nav class="navbar navbar-default navbar-expand-lg navbar-light">
-                    <div class="navbar-header d-flex col">
-                            <a href="#" class="navbar-brand">
-                                <img class="brand-img"src="img/logo.jpg">
-                            </a> 		
-                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Collection of nav links, forms, and other content for toggling -->
-                    <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
-                        <ul class="nav navbar-nav navbar-right ml-auto">
-                                <li class="nav-item active"><a href="#" class="nav-link">ACCUEIL</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">bookings</a></li>			
-                                <li class="nav-item "><a href="#" class="nav-link">contact us 1</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">booking</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">thank you for booking</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">booking my account</a></li>
-                                			
-                            <li class="nav-item">
-                                <a data-toggle="modal" data-target="#exampleModalCenter" class="nav-link dropdown-toggle login" href="#"><i class="fa fa-user"></i> Login</a>
-                                <!-- <ul class="dropdown-menu form-wrapper">					
-                                    <li>
-                                        <form action="/examples/actions/confirmation.php" method="post">
-                                            <p class="hint-text">Sign in with your social media account</p>
-                                            <div class="form-group social-btn clearfix">
-                                                <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
-                                                <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>                                            </div>
-                                            <div class="or-seperator"><b>or</b></div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Username" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" placeholder="Password" required="required">
-                                            </div>
-                                            <input type="submit" class="btn btn-primary btn-block" value="Login">
-                                            <div class="form-footer">
-                                                <a href="#">Forgot Your password?</a>
-                                            </div>
-                                        </form>
-                                    </li>
-                                </ul> -->
-                            </li>
-                            <li class="nav-item">
-                                <a href="#"data-toggle="modal" data-target="#exampleModalCenter2" class="nav-link dropdown-toggle  register"><i class="fa fa-plus"></i> sign up</a>
-                                <ul class="dropdown-menu form-wrapper">					
-                                    <li>
-                                        <form action="/examples/actions/confirmation.php" method="post" class="text-center">
-                                            <p>Create an Account</p>
-                                            <p class="hint-text">Sign up with your social media account or email address</p>
-                                            <div class="social-btn text-center">
-                                                <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
-                                                <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
-                                            </div>
-                                            <div class="or-seperator"><b>or</b></div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
-                                            </div>  
-                                            <div class="form-group">
-                                                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
-                                            </div>
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                 <div class="slider">
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+</head>
+
+<body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand" style="padding-left: 10px;">
+                    <img class="brand-img"src="img/logo.jpg" style="margin-top: 70px;">
+                </a>   
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link">ACCUEIL</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">bookings</a></li>			
+                        <li class="nav-item "><a href="#" class="nav-link">contact us 1</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">booking</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">thank you for booking</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">booking my account</a></li>
+                        <li  class="nav-item login"><a data-toggle="modal" data-target="#exampleModalCenter" href="#" class="nav-link"> <i class="fa fa-user"></i> login</a></li>
+                        <li class="nav-item signup"><a data-toggle="modal" data-target="#exampleModalCenter2" href="#" class="nav-link"> <i class="fa fa-plus"></i> sign up</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="slider">
                 <div class="sliderContent ">
                     <div class="text-center">
                         <h1>NOUS TROUVERONS DES <br>SERVICES POUR VOUS</h1>
@@ -117,801 +59,769 @@
                     </div>     
                 </div>
             </div> 
-                    <!--Payment Section-->
-        
-        <div class="container" id="pay">
-            <div class="mainPayment">
-                <form class="form-group">
-                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="Keyword"></div> 
-                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="Category"></div>
-                    <div><input class="PayInput form-control sf-form-control" type="text"placeholder="City "></div>
-                    <div><input class="btn btn-success"type="submit"value="Find Provider"></div>
-                </form>
-            </div>
-        </div>    
-        
-        <!--Comment Section-->
-        <section class="comment">
-            <div class="container text-center">
-                <h3>COMMENT FONCTIONNE FCONNECT</h3>
-                <hr class="hr"><hr class="hr">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="slidDiv text-center">
-                            <img src="img/describe-1.png">
-                        </div>
-                        <h4>DÉCRIVEZ VOTRE TÂCHE</h4>
-                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
-                        <div class="number">1</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="slidDiv text-center">
-                            <img src="img/tasker-1.png">
-                        </div>
-                        <h4>CHOISISSEZ UN TASKER</h4>
-                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
-                        <div class="number">2</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="slidDiv text-center">
-                            <img src="img/smarter-1.png">
-                        </div>
-                        <h4>VIVRE PLUS INTELLIGEMMENT</h4>
-                        <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
-                        <div class="number">3</div>
-                    </div>
-        
-                </div>
-                
-            </div>
-        </section>
-         <div class="container">
-            <hr class="hr1">
-            <hr class="hr2">
-        </div>
-        <!--
-        <section class="testmonials">
-            <div class="container text-center">
-                    <h3>FORMATEURS EN VEDETTE</h3>
-                    <hr class="hr"><hr class="hr">
-                    <h5>Meilleures offres de service</h5>
-                    <div class="row">
-                        <div class="col-md-8 col-center m-auto">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                               Carousel indicators 
-                                 <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ol>   
-                                Wrapper for carousel items 
-                                <!-- <div class="carousel-inner">
-                                    <div class="item carousel-item active">
-                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
-                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                        <p><i class="fas fa-search-location"></i> nice,France</p>
-                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
-                                        
-                                        <br>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
-                                    </div>
-                                    <div class="item carousel-item">
-                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
-                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                        <p><i class="fas fa-search-location"></i> nice,France</p>
-                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
-                                        <br>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
-                                    </div>
-                                    <div class="item carousel-item">
-                                        <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
-                                        <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                        <p><i class="fas fa-search-location"></i> nice,France</p>
-                                        <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                        <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
-                                        <br>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
-                                        <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
-                                    </div>
-                                </div> -->
-                                <!-- Carousel controls -->
-                                <!-- <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                                    <i class="fa fa-angle-left" style="color: #FFF;"></i>
-                                </a>
-                                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                                    <i class="fa fa-angle-right" style="color: #FFF;"></i>
-                                </a>
+                        <!--Payment Section-->
+            
+            <div class="container" id="pay">
+                <div class="mainPayment">
+                    <form class="form-group">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">
+                                <input class="PayInput form-control sf-form-control" type="text"placeholder="Keyword">
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <select id="categorysrh" name="catid" class="PayInput form-control sf-form-control " title="Category" data-live-search="true" data-header="Select a Category">
+                                    <option value="">
+                                        Select a Category
+                                    </option>
+                                    <option  value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option>
+                                    <option  value="75" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/H-rond-formation-60x60.png'><span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option>
+                                    <option  value="74" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/552274_13470292_2505971_9c972622_image-60x60.png'><span class='childcat'>AIPR débutant</span>">AIPR débutant</option>
+                                    <option  value="76" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/10/dbog-maintenance-assistance-60x60.jpg'><span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option>
+                                    <option  value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option>
+                                    <option  value="69" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/552274_13470292_2505971_9c972622_image-60x60.png'><span class='childcat'>2S</span>">2S</option>
+                                    <option  value="68" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/552274_13470292_2505971_9c972622_image-60x60.png'><span class='childcat'>IBC</span>">IBC</option>
+                                    <option  value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option>
+                                    <option  value="72" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/H-rond-formation-60x60.png'><span class='childcat'>APS ASD</span>">APS ASD</option>
+                                    <option  value="71" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/A1_01Picto-formation-60x60.png'><span class='childcat'>SST</span>">SST</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <select class=" PayInput sf-select-box form-control sf-form-control" data-live-search="true" name="city" id="city" title="City" data-header="Select a City">
+                                    <option value="">Select City</option>
+                                    <option  value="lile">lile</option>
+                                    <option  value="marseilles">marseilles</option>
+                                    <option  value="nice">nice</option>
+                                    <option  value="toulouse">toulouse</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-center">
+                                <input class="btn btn-success form-control PayInput sf-form-control"type="submit"value="Find Provider">
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-        </section>  -->
-
-        <section class="testmonials">
+            </div>    
+            
+            <!--Comment Section-->
+            <section class="comment">
+                <div class="container text-center">
+                    <h3>COMMENT FONCTIONNE FCONNECT</h3>
+                    <hr class="hr"><hr class="hr">
+                    <div class="row">
+                        <div class="col-md-4 photoHover">
+                            <div class="slidDiv text-center">
+                                <img src="img/describe-1.png">
+                            </div>
+                            <h4>DÉCRIVEZ VOTRE TÂCHE</h4>
+                            <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                            <div class="number">1</div>
+                        </div>
+                        <div class="col-md-4 photoHover">
+                            <div class="slidDiv text-center">
+                                <img src="img/tasker-1.png">
+                            </div>
+                            <h4>CHOISISSEZ UN TASKER</h4>
+                            <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                            <div class="number">2</div>
+                        </div>
+                        <div class="col-md-4 photoHover">
+                            <div class="slidDiv text-center">
+                                <img src="img/smarter-1.png">
+                            </div>
+                            <h4>VIVRE PLUS INTELLIGEMMENT</h4>
+                            <p>Cela nous aide à déterminer quels Taskers conviennent le mieux à votre travail.</p>
+                            <div class="number">3</div>
+                        </div>
+            
+                    </div>
+                    
+                </div>
+            </section>
+             <div class="container">
+                <hr class="hr1">
+                <hr class="hr2">
+            </div>
+            <!--
+            <section class="testmonials">
                 <div class="container text-center">
                         <h3>FORMATEURS EN VEDETTE</h3>
                         <hr class="hr"><hr class="hr">
                         <h5>Meilleures offres de service</h5>
                         <div class="row">
-                            <div class="col-md-12">
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                                <!-- Carousel indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ol>   
-                                <!-- Wrapper for carousel items -->
-                                <div class="carousel-inner">
-                                    <div class="item carousel-item active">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>		
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>								
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item carousel-item">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>						
-                                        </div>
-                                    </div>
-                                    <div class="item carousel-item">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="thumb-wrapper">
-                                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                    <div class="img-box">
-                                                        <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                    </div>
-                                                    <div class="thumb-content">
-                                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                            <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                            <div class="star-rating">
-                                                            <ul class="list-inline">
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                        </div>
-                                                        <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                    </div>						
-                                                </div>
-                                            </div>	
-                                            <div class="col-sm-3">
-                                                    <div class="thumb-wrapper">
-                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                        <div class="img-box">
-                                                            <img src="img/pp-4.jpg" class="img-responsive img-fluid" alt="">									
-                                                        </div>
-                                                        <div class="thumb-content">
-                                                                <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
-                                                                <p><i class="fas fa-search-location"></i> nice,France</p>                                                        
-                                                                <div class="star-rating">
-                                                                <ul class="list-inline">
-                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                                                </ul>
-                                                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
-                                                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>								
-                                                            </div>
-                                                            <a href="#" class="btn btn-primary">Add to Fav</a>
-                                                        </div>						
-                                                    </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Carousel controls -->
-                                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                                    <i class="fa fa-angle-left"></i>
-                                </a>
-                                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                                    <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-        </section>
-        <!--FCONNECT  Section-->
-        <section class="" style="margin-top: 90px;">
-                <div class="container text-center">
-                    <h3>FCONNECT CATÉGORIES</h3>
-                    <hr class="hr"><hr class="hr">
-                    <h5 style="margin-bottom:50px ;">Meilleures offres de service</h5>
-                    <div class="row">
-                        <div class="col-md-4 serv">
-                            <div class="photo1">
-                                <h4 class="sevice-name">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-4 serv">
-                            <div class="photo2">
-                                <h4 class="sevice-name">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-4 serv">
-                            <div class="photo3">
-                                <h4 class="sevice-name">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</h4>
-                            </div>
-                        </div>
-            
-                    </div>
-                    
-                </div>
-            </section>
-
-            <!---4 FORMATEURS SUIVEZ-NOUS SECTION---->
-            <section class="formateurs text-center">
-                <h1 class="formateur-h1"><span>4</span>FORMATEURS SUIVEZ-NOUS</h1>
-                <p>Lorem Ipsum est simplement un texte factice de l’industrie de l’impression et de la composition. Lorem Ipsum est le texte factice standard de l’industrie depuis les années 1500, quand un imprimeur inconnu a pris une galère de type et l’a brouillé pour en faire un cahier type.</p>
-
-            </section>
-
-            <section class="testmonials2">
-                    <div class="container">
-                        <div class="text-center">
-                            <h3 >FORMATEURS EN VEDETTE</h3>
-                            <hr class="hr"><hr class="hr">
-                            <h5>Meilleures offres de service</h5>
-                        </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="0">
-                                    <!-- Carousel indicators -->
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-                                        <li data-target="#myCarousel2" data-slide-to="1"></li>
-                                        <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            <div class="col-md-8 col-center m-auto">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                   Carousel indicators 
+                                     <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
                                     </ol>   
-                                    <!-- Wrapper for carousel items -->
-                                    <div class="carousel-inner">
+                                    Wrapper for carousel items 
+                                    <!-- <div class="carousel-inner">
                                         <div class="item carousel-item active">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="thumb-wrapper2">
-                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                        <div class="img-box2">
-                                                            <img class="caros-img" src="img/bg4-554x261.jpg" class="img-responsive img-fluid" alt="">									
-                                                        </div>
-                                                        <div class="thumb-content">
-                                                            <h5>BONJOUR</h5>
-                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
-                                                            <p>Experimental article ….!</p>    
-                                                            <a class="read-more" href="#">READ MORE</a>                                                  
-                                                        </div>						
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="thumb-wrapper2">
-                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                        <div class="thumb-content">
-                                                            <h5>BONSOIR</h5>
-                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
-                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
-                                                            <a class="read-more" href="#">READ MORE</a>                                                  
-                                                        </div>						
-                                                    </div>
-                                                </div>										
-                                            </div>
+                                            <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                            <p><i class="fas fa-search-location"></i> nice,France</p>
+                                            <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
+                                            
+                                            <br>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
                                         </div>
                                         <div class="item carousel-item">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <div class="thumb-wrapper2">
-                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                        <div class="thumb-content">
-                                                            <h5>BONSOIR</h5>
-                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
-                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
-                                                            <a class="read-more" href="#">READ MORE</a>                                                  
-                                                        </div>						
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="thumb-wrapper2">
-                                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
-                                                        <div class="thumb-content">
-                                                            <h5>BONSOIR</h5>
-                                                            <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
-                                                            <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
-                                                            <a class="read-more" href="#">READ MORE</a>                                                  
-                                                        </div>						
-                                                    </div>
-                                                </div>						
-                                            </div>
+                                            <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                            <p><i class="fas fa-search-location"></i> nice,France</p>
+                                            <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
+                                            <br>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
                                         </div>
-                                    </div>
+                                        <div class="item carousel-item">
+                                            <div class="img-box"><img src="img/pp-4.jpg" alt=""></div>
+                                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                                            <p><i class="fas fa-search-location"></i> nice,France</p>
+                                            <p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                            <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i> </button>
+                                            <br>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Full Veiw <i class="fas fa-eye"></i></button>
+                                            <button class="bt-view" style="margin-top: 15px; margin-bottom: 15px;">Add To Fav <i class="far fa-heart"></i></button>
+                                        </div>
+                                    </div> -->
                                     <!-- Carousel controls -->
-                                    <a class="carousel-control left carousel-control-prev" href="#myCarousel2" data-slide="prev">
-                                        <i class="fa fa-angle-left"></i>
+                                    <!-- <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                        <i class="fa fa-angle-left" style="color: #FFF;"></i>
                                     </a>
-                                    <a class="carousel-control right carousel-control-next" href="#myCarousel2" data-slide="next">
-                                        <i class="fa fa-angle-right"></i>
+                                    <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                        <i class="fa fa-angle-right" style="color: #FFF;"></i>
                                     </a>
-                                </div>
                                 </div>
                             </div>
                         </div>
-                        
+                    </div>
+            </section>  -->
     
-            </section>
+<!-- Reviews -->
+<section class="reviews">
+
+        <div class="container text-center">
+                <h3>FORMATEURS EN VEDETTE</h3>
+                <hr class="hr"><hr class="hr">
+                <h5 style="margin-bottom: 35px;">Meilleures offres de service</h5>
+            <div class="owl-carousel">
+                <!-- card -->
+                <div class="item">
+                    <div class=" card">
+                        <div class="row">
+                            <div class="col-xs-7 col-7 info-col text-center">
+                                <h4 class="title">JOHN CHARLES</h4>
+                                <h6 class="sub-title">Creative Marketer</h6>
+                                
+                                <ul style="margin-left:30px">
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p><i class="fas fa-search-location"></i> nice,France</p>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
 
 
-            <div class="footer text-center">
-                <p>Fconnect text Footer.</p>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                                <div class="user" style="background-image: url('img/user.jpg')"></div>
+                                
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                                <a data-toggle="modal" data-target="#exampleModalCenter" href="#" class="btn btn-custom">Add to Fav <i class="fas fa-heart"></i></a>
+                                <a href="#" class="btn owl-next">Full View <i class="fas fa-arrow-right"></i></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card -->
+                <div class="item">
+                    <div class=" card">
+                        <div class="row">
+                            <div class="col-xs-7 col-7 info-col text-center">
+                                <h4 class="title">JOHN CHARLES</h4>
+                                <h6 class="sub-title">Creative Marketer</h6>
+                                
+                                <ul style="margin-left:30px">
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p><i class="fas fa-search-location"></i> nice,France</p>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
+
+
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                                <div class="user" style="background-image: url('img/user-1.jpg')"></div>
+                                
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                                <a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-custom">Add to Fav <i class="fas fa-heart"></i></a>
+                                <a href="#" class="btn owl-next">Full View <i class="fas fa-arrow-right"></i></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- card -->
+                <div class="item">
+                    <div class=" card">
+                        <div class="row">
+                            <div class="col-xs-7 col-7 info-col text-center">
+                                <h4 class="title">JOHN CHARLES</h4>
+                                <h6 class="sub-title">Creative Marketer</h6>
+                                
+                                <ul style="margin-left:30px">
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p><i class="fas fa-search-location"></i> nice,France</p>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="Tel: 1234567"> <i class="fa fa-phone"></i> </button>
+                                <button type="button" class="btn btn-border" data-tool="tooltip" data-placement="top" title="1 Review"><i class="far fa-comment-dots"></i></button>
+
+
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 img-col">
+                                <div class="user" style="background-image: url('img/user-2.jpg')"></div>
+                                
+                            </div>
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col">
+                                <a href="#"data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-custom">Add to Fav <i class="fas fa-heart"></i></a>
+                                <a href="#" class="btn owl-next">Full View <i class="fas fa-arrow-right"></i></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="footer-bottom"></div>
-            
-
-<!--Login Medal-->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content text-center">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
         </div>
-        <div class="modal-body">
-            <form action="/examples/actions/confirmation.php" method="post">
-
+    </section>
+            <!--FCONNECT  Section-->
+            <section class="" style="margin-top: 90px;">
+                    <div class="container text-center">
+                        <h3>FCONNECT CATÉGORIES</h3>
+                        <hr class="hr"><hr class="hr">
+                        <h5 style="margin-bottom:50px ;">Meilleures offres de service</h5>
+                        <div class="row">
+                            <div class="col-md-4 serv">
+                                <div class="photo1">
+                                    <h4 class="sevice-name">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</h4>
+                                    <span class="service-plus">
+                                        <i class="fa fa-user-plus"> (4)</i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 serv">
+                                <div class="photo2">
+                                    <h4 class="sevice-name">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</h4>
+                                    <span class="service-plus">
+                                        <i class="fa fa-user-plus"> (2)</i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 serv">
+                                <div class="photo3">
+                                    <h4 class="sevice-name">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</h4>
+                                    <span class="service-plus">
+                                        <i class="fa fa-user-plus"> (2)</i>
+                                    </span>
+                                </div>
+                            </div>
                 
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
+                        </div>
+                        
+                    </div>
+                </section>
+    
+                <!---4 FORMATEURS SUIVEZ-NOUS SECTION---->
+                <section class="formateurs text-center">
+                    <h1 class="formateur-h1"><span>4</span>FORMATEURS SUIVEZ-NOUS</h1>
+                    <p>Lorem Ipsum est simplement un texte factice de l’industrie de l’impression et de la composition. Lorem Ipsum est le texte factice standard de l’industrie depuis les années 1500, quand un imprimeur inconnu a pris une galère de type et l’a brouillé pour en faire un cahier type.</p>
+    
+                </section>
+    
+<!-- Reviews -->
+<section class="reviews2 ">
+        <h4 class="main-title text-center font-weight-bold pb-4">WHAT CUSTOMERS SAY</h4>
+
+        <div class="container">
+            <div class="owl-carousel">
+
+                <!-- card -->
+                <div class="item">
+                        <div class=" card">
+                            <div class="row">
+                                <div class="col-md-12 info-col divPhoto">
+                                    <img src="img/bg4-554x261.jpg" style="height: 300px;">
+                                </div>
+                                    <span style="background: #3396d1;
+                                    text-align: center;
+                                    width: 45px;
+                                    color: #FFF;height: 50px;padding-top: 8px; margin-left: 30px; margin-top: -170px; z-index: 99999999;font-size: 30px;
+                                    font-weight: 800;">
+                                    28
+                                    </span>
+                                    <span style="background: #77c04b;
+                                    padding: 5px;
+                                    font-size: 13px;;
+                                    text-align: center;
+                                    width: 45px;
+                                    color: #FFF;height: 50px;padding-top: 18px;margin-top: -170px; z-index: 99999999;">Oct
+                                    </span>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col" style="margin-top: 30px;">
+                                        <h5>BONJOUR</h5>
+                                        <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                        <p>Experimental article ….!</p>    
+                                        <a class="read-more" href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
+                <!-- card -->
+                <div class="item">
+                        <div class=" card">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col" style="margin-top: 30px;">
+                                        <span style="background: #3396d1;
+                                        padding: 5px;
+                                        font-size: 13px;
+                                        text-align: center;
+                                        width:85px;
+                                        color: #FFF;height: 80px;padding-top: 12px; margin-bottom: 50px;
+                                        font-size: 30px;
+                                        font-weight: 800;">12
+                                        </span>
+                                        <span style="background: #77c04b;
+                                        padding: 5px;
+                                        font-size: 13px;
+                                        text-align: center;
+                                        width: 120px;
+                                        color: #FFF;height: 80px;padding-top: 12px;margin-bottom: 50px;
+                                        font-size: 30px;
+                                        font-weight: 800;">Jan
+                                        </span>
+                                        <h5 style="margin-top: 20px;">BONSOIR</h5>
+                                        <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                        <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
+                                        <a class="read-more" href="#">READ MORE</a>                                                  
+                                </div>
+                            </div>
+                        </div>
                 </div>
-                <input type="submit" class="btn btn-success btn-block" value="Login">
-                <div class="form-footer">
-                    <a style="color: #666;" href="#">have an account |</a> <a style="color: #666;" href="#">Forget Pasword</a>
-                </div>
-                <!-- <div class="or-seperator"><b>or</b></div> -->
-                <p class="hint-text">Sign in with your social media account</p>
-                <div class="form-group social-btn clearfix">
-                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
-                      
-                </div>
-                <div class="form-group social-btn clearfix">
-                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
-                </div>
-                 
-            </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--SignUp Medal-->
-<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content text-center">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROVIDER</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">CUSTOMER</a>
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <form class="provider_registration" method="post" style="margin-top: 30px;">
-                                <div class="provider-bx clearfix row">
-                                  <div class="col-md-12">
-                                    <div class="form-group">
-                                      <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                  </div>
-                                                    <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-12">
-                                    <div class="form-group">
-                                      <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group has-select">
-                                      <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
-                                        <option value="">
-                                            Select Category                       
-                                         </option>
-                                        <option value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option><option value="75" data-content="<span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option><option value="74" data-content="<span class='childcat'>AIPR débutant</span>">AIPR débutant</option><option value="76" data-content="<span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option><option value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option><option value="69" data-content="<span class='childcat'>2S</span>">2S</option><option value="68" data-content="<span class='childcat'>IBC</span>">IBC</option><option value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option><option value="72" data-content="<span class='childcat'>APS ASD</span>">APS ASD</option><option value="71" data-content="<span class='childcat'>SST</span>">SST</option>                      
-                                    </select>
-                                    </div>
-                                    <div class="form-group text-left">
-                                        <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
-                                    </div>
-                                    
-                                  </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
-                                </div>
-                                <div class="form-footer">
-                                    <a style="color: #767676;" href="#">Already Registered?</a>
-                                </div>
-                                <!-- <div class="or-seperator"><b>or</b></div> -->
-                                <p class="hint-text text-left">Connecter avec:</p>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
-                                        
-                                </div>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
-                                </div>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" style="background-color: #4d9edb;" class="btn pull-left  btn-block"> <i class="fab fa-twitter"></i> Twitter</a>                      
-                                </div>
-                              </form>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <form class="provider_registration" method="post" style="margin-top: 30px;">
-                                <div class="provider-bx clearfix row">
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
-                                </div>
-                                <div class="form-footer">
-                                    <a style="color: #767676;" href="#">Already Registered?</a>
-                                </div>
-                                    <!-- <div class="or-seperator"><b>or</b></div> -->
-                                <p class="hint-text text-left">Connecter avec:</p>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
-                                        
-                                </div>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" class="btn btn-danger pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
-                                </div>
-                                <div class="form-group social-btn clearfix">
-                                    <a href="#" style="background-color: #4d9edb;" class="btn pull-left  btn-block"> <i class="fab fa-twitter"></i> Twitter</a>                      
-                                </div>       
-                              </form>  
+
+
+                <!-- card -->
+                <div class="item">
+                    <div class=" card">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-col" style="margin-top: 30px;">
+                                    <span style="background: #3396d1;
+                                    padding: 5px;
+                                    font-size: 13px;
+                                    text-align: center;
+                                    width:85px;
+                                    color: #FFF;height: 80px;padding-top: 12px; margin-bottom: 50px;
+                                    font-size: 30px;
+                                    font-weight: 800;">12
+                                    </span>
+                                    <span style="background: #77c04b;
+                                    padding: 5px;
+                                    font-size: 13px;
+                                    text-align: center;
+                                    width: 120px;
+                                    color: #FFF;height: 80px;padding-top: 12px;margin-bottom: 50px;
+                                    font-size: 30px;
+                                    font-weight: 800;">Jan
+                                    </span>
+                                    <h5 style="margin-top: 20px;">BONSOIR</h5>
+                                    <p><i class="fas fa-user"></i> By <a href="#" title="Posts by admin">admin</a> <i class="fa fa-comments"></i> <a href="#">1 Comment</a> <i class="fa fa-tags"></i></p>  
+                                    <p>Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental Article expérimental …………….Article expérimental</p>    
+                                    <a class="read-more" href="#">READ MORE</a>                                                  
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    
+    
+                <div class="footer text-center">
+                    <p>Fconnect text Footer.</p>
+                </div>
+                <div class="footer-bottom"></div>
+                
+    
+    <!--Login Medal-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+    
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group text-left">
+                        <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                    </div>
+                    <input type="submit" class="btn btn-success btn-block" value="Login">
+                    <div class="form-footer text-center "style="margin-top:60px">
+                        <a  data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter2" style="color: #666; " href="#">have an account |</a> <a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter3" style="color: #666;" href="#">Forget Pasword</a>
+                    </div>
+                    <!-- <div class="or-seperator"><b>or</b></div> -->
+                    <p class="hint-text">Connect avec : </p>
+                    <div class="form-group social-btn clearfix">
+                        <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    </div>
+                    <div class="form-group social-btn clearfix">
+                        <a href="#" class="btn btn-danger pull-left wp-social-login-provider-google  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                    </div>
+                    <div class="form-group social-btn clearfix">
+                        <a href="#" class="btn btn-primary wp-social-login-provider-twitter pull-left  btn-block"><i class="fab fa-google"></i> twitter</a>                      
+                    </div>
+                     
+                </form>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-            
 
-        <div id="goUPButton">
-            <i class="fas fa-angle-up"onclick=goUP()></i>
+          <!--Forget Medal-->
+    <div class="modal fade forget" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/examples/actions/confirmation.php" method="post">
+        
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username Or Email" required="required">
+                        </div>
+                        <input type="submit" class="btn btn-success btn-block" value="Get New Password">
+                        <div class="form-footer text-center "style="margin-top:60px">
+                            <a  data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter2" style="color: #666; " href="#">don't have account |</a> 
+                            <a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter" style="color: #666;" href="#">already registered</a>
+                        </div>
+                         
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!--SignUp Medal-->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content text-center">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">PROVIDER</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">CUSTOMER</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <form class="provider_registration" method="post" style="margin-top: 30px;">
+                                    <div class="provider-bx clearfix row">
+                                      <div class="col-md-12">
+                                        <div class="form-group">
+                                          <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                        </div>
+                                      </div>
+                                       <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="form-group">
+                                          <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group has-select">
+                                          <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
+                                            <option value="">
+                                                Select Category                       
+                                             </option>
+                                            <option value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option><option value="75" data-content="<span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option><option value="74" data-content="<span class='childcat'>AIPR débutant</span>">AIPR débutant</option><option value="76" data-content="<span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option><option value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option><option value="69" data-content="<span class='childcat'>2S</span>">2S</option><option value="68" data-content="<span class='childcat'>IBC</span>">IBC</option><option value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option><option value="72" data-content="<span class='childcat'>APS ASD</span>">APS ASD</option><option value="71" data-content="<span class='childcat'>SST</span>">SST</option>                      
+                                        </select>
+                                        </div>
+                                        <div class="form-group text-left">
+                                            <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                                        </div>
+                                        
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                    </div>
+                                    <div class="form-footer">
+                                        <a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter" style="color: #767676;" href="#">Already Registered?</a>
+                                    </div>
+                                    <!-- <div class="or-seperator"><b>or</b></div> -->
+                                    <p class="hint-text text-left">Connecter avec:</p>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                            
+                                    </div>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-danger wp-social-login-provider-google pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                                    </div>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-danger wp-social-login-provider-twitter pull-left  btn-block"><i class="fab fa-google"></i> twitter</a>                      
+                                    </div>
+                                  </form>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <form class="provider_registration" method="post" style="margin-top: 30px;">
+                                    <div class="provider-bx clearfix row">
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                        </div>
+                                        <div class="form-group text-left">
+                                            <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                    </div>
+                                    <div class="form-footer">
+                                        <a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter" style="color: #767676;" href="#">Already Registered?</a>
+                                    </div>
+                                        <!-- <div class="or-seperator"><b>or</b></div> -->
+                                    <p class="hint-text text-left">Connecter avec:</p>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-primary pull-left btn-block"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                            
+                                    </div>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-danger wp-social-login-provider-google pull-left  btn-block"><i class="fab fa-google"></i> Google</a>                      
+                                    </div>
+                                    <div class="form-group social-btn clearfix">
+                                        <a href="#" class="btn btn-danger wp-social-login-provider-twitter pull-left  btn-block"><i class="fab fa-google"></i> twitter</a>                      
+                                    </div>       
+                                  </form>  
+                    </div>
+                </div>
+    
+            </div>
+          </div>
         </div>
-
-
-
-		
-
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-		<script src="js/wow.min.js"></script>
-        <script>
-          new WOW().init();
-        </script>
-		<script src="js/jQuery3.3.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="js/e.js"></script>
-	</body>
+      </div>
+    
+    
+            <div id="goUPButton">
+                <i class="fas fa-angle-up"onclick=goUP()></i>
+            </div>
     
 
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/style.js"></script>
+
+
+
+
+    <script>
+        // Reviews slider
+        $(".reviews .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 35,
+            nav: true,
+            center: true,
+            autoplay: true,
+            navText: [
+                '<i class="fa fa-angle-left"></i>',
+                '<i class="fa fa-angle-right"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                750: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+                // Reviews slider2
+         $(".reviews2 .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 35,
+            nav: true,
+            autoplay: true,
+            navText: [
+                '<i class="fa fa-angle-left"></i>',
+                '<i class="fa fa-angle-right"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                750: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+    </script>
+
+
+
+
+</body>
 
 </html>
