@@ -65,10 +65,16 @@
                 <div class="mainPayment">
                     <form class="form-group">
                         <div class="row">
-                            <div class="col-md-3 col-sm-12">
-                                <input class="PayInput form-control sf-form-control" type="text"placeholder="Keyword">
+                            <div class="col-md-2 col-sm-12">
+                                <input class="PayInput form-control sf-form-control" type="text"placeholder="Keyword">                                
                             </div>
-                            <div class="col-md-3 col-sm-12">
+                            <div class="col-md-2 col-sm-12">
+                                <input placeholder="Check-in" class="PayInput form-control sf-form-control textbox-n" type="text" onfocus="(this.type='date')"  id="date">
+                            </div>
+                            <div class="col-md-2 col-sm-12">
+                                <input placeholder="Check-out" class="PayInput form-control sf-form-control textbox-n" type="text" onfocus="(this.type='date')"  id="date">
+                            </div>
+                            <div class="col-md-2 col-sm-12">
                                 <select id="categorysrh" name="catid" class="PayInput form-control sf-form-control " title="Category" data-live-search="true" data-header="Select a Category">
                                     <option value="">
                                         Select a Category
@@ -85,7 +91,7 @@
                                     <option  value="71" data-content="<img class='childcat-img' width='50' height='auto' src='http://fconect.expermark.com/wp-content/uploads/2019/11/A1_01Picto-formation-60x60.png'><span class='childcat'>SST</span>">SST</option>
                                 </select>
                             </div>
-                            <div class="col-md-3 col-sm-12">
+                            <div class="col-md-2 col-sm-12">
                                 <select class=" PayInput sf-select-box form-control sf-form-control" data-live-search="true" name="city" id="city" title="City" data-header="Select a City">
                                     <option value="">Select City</option>
                                     <option  value="lile">lile</option>
@@ -94,7 +100,7 @@
                                     <option  value="toulouse">toulouse</option>
                                 </select>
                             </div>
-                            <div class="col-md-3 col-sm-12 text-center">
+                            <div class="col-md-2 col-sm-12 text-center">
                                 <input class="btn btn-success form-control PayInput sf-form-control"type="submit"value="Find Provider">
                             </div>
                         </div>

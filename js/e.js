@@ -1,3 +1,4 @@
+
 var d5 = document.getElementById('more'),
     d6 = document.getElementById('hiddenMore'),
     d7 = document.getElementById('hiddenMore2'),
@@ -151,7 +152,12 @@ $(document).ready(function(){
     $(".wish-icon i").click(function(){
         $(this).toggleClass("fa-heart fa-heart-o");
     });
+    $('.datepicker').pickadate({
+        editable: true
+    })
 });	
+
+
 
 
 
