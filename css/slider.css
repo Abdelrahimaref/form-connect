@@ -829,3 +829,18 @@ ul.contact-info li .fa {
     border-color: #62a643;
     color: #ffffff!important;
 }
+
+/****Google Map*****/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:350px;
+    width:100%;
+    position:absolute;
+}
