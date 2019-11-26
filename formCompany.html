@@ -23,15 +23,15 @@
        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" type="text/css" href="css/lightpick.css">
 
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="formDiv">
-            <h3 class="text-center" style="margin-bottom: 60px;">Login Or SignUp as a Company</h3>
+            <h3 class="text-center" style="margin-bottom: 40px;">Login Or SignUp as a trainer</h3>
             <div class="row">
                 <div class="col-md-6">
                         <form action="/examples/actions/confirmation.php" method="post" style="padding-top: 100px;border:1px solid #333 ; padding:30px ; margin-bottom:30px ;">
@@ -49,63 +49,83 @@
                             <div class="form-footer text-center "style="margin-top:60px">
                                 <a data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter3" style="color: #666;" href="#">Forget Pasword</a>
                             </div>
-                            <!-- <div class="or-seperator"><b>or</b></div> -->
                              
                         </form>
                 </div>
                 <div class="col-md-6">
-                        <form class="provider_registration" method="post" style="border:1px solid #333 ; padding:30px; margin-bottom: 30px; margin-top: 11px;">
-                                <h3 style="margin-bottom: 35px;">SignUp  Now </h3>
+                        <form class="provider_registration" method="post" style="border:1px solid #333 ; padding:30px; margin-bottom: 30px;">
+                                <h3 class="text-center" style="margin-bottom: 35px;">SignUp  Now </h3>
                                 <div class="provider-bx clearfix row">
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
-                                          </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                    <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
-                                            </div>
-                                        </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                  </div>
+                                   <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group has-select">
+                                      <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
+                                        <option value="">
+                                            Select Category                       
+                                         </option>
+                                        <option value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option><option value="75" data-content="<span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option><option value="74" data-content="<span class='childcat'>AIPR débutant</span>">AIPR débutant</option><option value="76" data-content="<span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option><option value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option><option value="69" data-content="<span class='childcat'>2S</span>">2S</option><option value="68" data-content="<span class='childcat'>IBC</span>">IBC</option><option value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option><option value="72" data-content="<span class='childcat'>APS ASD</span>">APS ASD</option><option value="71" data-content="<span class='childcat'>SST</span>">SST</option>                      
+                                    </select>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                </div>
 
-                
-                                      </div>
-                                      <div class="col-md-12">
-                                          <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
-                                      </div>
-                                    </form> 
+                              </form>
 
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade forget" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+     -->
+`      <!--Forget Modal-->
+     <div class="modal fade forget" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -127,8 +147,104 @@
                 </div>
               </div>
             </div>
-          </div>
-    
+        </div>
+        <!---End Forget Modal-->
+<div class="container">
+    <div class="row" style="margin-top: 60px;">
+        <div class="col-md-6">
+                <div class="signup-form">
+                        <form action="/examples/actions/confirmation.php" method="post">
+                            <h2>LOGIN</h2>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+                            </div>
+                             <div class="form-group">
+                                <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition"> Remember Me
+                             </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">LOGIN</button>
+                            </div>
+                        </form>
+                        <div class="text-center"><a href="#"data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter3">FORGET PASSWORD</a></div>
+                    </div>
+
+        </div>
+        <div class="col-md-6">
+
+                <div class="signup-form">
+                        <form class="provider_registration" method="post">
+                                <h3 class="text-center" style="margin-bottom: 35px;">SignUp  Now </h3>
+                                <div class="provider-bx clearfix row">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input name="signup_company_name" type="text" class="form-control" placeholder="Company Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_first_name" type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_last_name" type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_name" type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_user_email" id="signup_user_email" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                  </div>
+                                   <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_password" id="password" type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <input name="signup_confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" name="signup_phone" id="signup_phone" placeholder="Phone">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group has-select">
+                                      <select class="sf-select-box form-control" name="signup_category" data-live-search="true" title="Category">
+                                        <option value="">
+                                            Select Category                       
+                                         </option>
+                                        <option value="73" data-content="<span>AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</span>">AIPR Prévention des risques : Habilitation électrique, Incendie, Risque chimique.</option><option value="75" data-content="<span class='childcat'>AIPR confirmé</span>">AIPR confirmé</option><option value="74" data-content="<span class='childcat'>AIPR débutant</span>">AIPR débutant</option><option value="76" data-content="<span class='childcat'>Le CHSCT et le management de la sécurité au travail</span>">Le CHSCT et le management de la sécurité au travail</option><option value="67" data-content="<span>Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</span>">Formation de formateurs - PRAP IBC; PRAP 2S; Formateur SST</option><option value="69" data-content="<span class='childcat'>2S</span>">2S</option><option value="68" data-content="<span class='childcat'>IBC</span>">IBC</option><option value="70" data-content="<span>Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</span>">Formations : SST, PRAP IBC, PRAP 2S, CPS, DAE</option><option value="72" data-content="<span class='childcat'>APS ASD</span>">APS ASD</option><option value="71" data-content="<span class='childcat'>SST</span>">SST</option>                      
+                                    </select>
+                                    </div>
+                                    <div class="form-group text-left">
+                                        <input type="checkbox" value="yes" name="providertermsncondition" id="providertermsncondition">
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-block" name="user-register" value="Sign up" />
+                                </div>
+
+                              </form>
+                    </div>  
+        </div>
+    </div>
+
+</div>
+     
     
             <div id="goUPButton">
                 <i class="fas fa-angle-up"onclick=goUP()></i>

@@ -766,8 +766,8 @@
             { 
                 field: document.getElementById('datepicker'),
                 footer: true,
-                singleDate:false
-        });
+            });
+            picker.setDateRange(new Date(), moment().add(10, 'day'));
     </script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
