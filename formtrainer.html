@@ -210,7 +210,7 @@
                    <div class="modal-dialog modal-dialog-centered" role="document">
                      <div class="modal-content">
                        <div class="modal-header">
-                         <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                         <h5 class="modal-title" id="exampleModalLongTitle">LForget Password</h5>
                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                            <span aria-hidden="true">&times;</span>
                          </button>
@@ -220,9 +220,9 @@
                
                                
                                <div class="form-group">
-                                   <input type="text" class="form-control" placeholder="Username Or Email" required="required">
+                                   <input type="text" class="form-control" placeholder="Email" required="required">
                                </div>
-                               <input type="submit" class="btn btn-success btn-block" value="Get New Password">
+                               <input type="submit" class="btn btn-success btn-block"data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter4" value="Get New Password">
                                 
                            </form>
                        </div>
@@ -230,6 +230,59 @@
                    </div>
                </div>
                <!---End Forget Modal-->
+       
+               <!--Enter Code Modal-->
+               <div class="modal fade forget" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered" role="document">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLongTitle">Enter Code</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                       </button>
+                       </div>
+                       <div class="modal-body">
+                           <form action="/examples/actions/confirmation.php" method="post">
+               
+                               
+                               <div class="form-group">
+                                   <input type="text" class="form-control" placeholder="Enter Code The recieved in your Email" required="required">
+                               </div>
+                               <input type="submit" class="btn btn-success btn-block"data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#exampleModalCenter5" value="Send">
+                               
+                           </form>
+                       </div>
+                   </div>
+                   </div>
+               </div>
+               <!--End Code Modal-->
+       
+               <!--new password Modal-->
+               <div class="modal fade forget" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered" role="document">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLongTitle">Enter Code</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                       </button>
+                       </div>
+                       <div class="modal-body">
+                           <form action="/examples/actions/confirmation.php" method="post">
+                               <div class="form-group">
+                                   <input type="text" class="form-control" placeholder="new Pasword" required="required">
+                               </div>
+                               <div class="form-group">
+                                   <input type="text" class="form-control" placeholder="Confirm Pasword" required="required">
+                               </div>
+                               <input type="submit" class="btn btn-success btn-block" value="Send">
+                               
+                           </form>
+                       </div>
+                   </div>
+                   </div>
+               </div>
+               <!--End New Password Modal-->
             <div id="goUPButton">
                 <i class="fas fa-angle-up"onclick=goUP()></i>
             </div>

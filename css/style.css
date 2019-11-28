@@ -21300,8 +21300,6 @@ div.dataTables_wrapper div.dataTables_processing { margin-left: -55px !important
 
 .aon-admin-user:hover {color:#999;}
 
-.aon-admin-user::after { content: "\f107"; font-family: fontawesome; display: inline-block; margin-left:0px;  color: #555;}
-
 .aon-admin-pic {width:40px; height:40px; background-color:#ddd; display:inline-block; overflow:hidden; position:absolute; top:50%; left:0; margin-top:-20px; -webkit-border-radius: 100%; border-radius: 100%;}
 
 .aon-admin-pic img {width:100%; height:auto;}
